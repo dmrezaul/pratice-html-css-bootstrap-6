@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*Header Section */
+
+.header {
+    background: #009432;
+}
+
+.header-logo img {
+    margin-top: 20px;
+}
+
+.header img {
+    width: 150px;
+}
+
+.menu {}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.menu ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 80px;
+    padding: 0 15px;
+    border-right: 1px solid #EA2027;
+}
+
+.menu ul li a:hover {
+    background: #EA2027;
+    color: white;
+}
+
+/* Banner Section */
+
+.banner-section {
+    background: url("picture/pic13.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover
+}
+
+.banner-text {
+    margin-top: 80px;
+}
+
+.banner-section h1 {
+    background: #EA2027;
+    color: white;
+    width: 400px;
+    margin: auto;
+    padding: 12px 0;
+    border-radius: 5px;
+}
+
+.banner-section h2 {
+    background: #009432;
+    color: white;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 298px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+/*About Section*/
+
+.about-section {
+    background: #EA2027;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/*Services Section*/
+
+.services-section {
+    background: #009432;
+    padding: 30px 0;
+}
+
+/*Blog Section*/
+
+.blog-section {
+    background: #EA2027;
+    padding: 34px 0;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.blog-right-section ul {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.blog-right-section ul li {
+    background: #009432;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+/*Contact Section*/
+
+.contact-section {
+    background: #009432;
+    padding: 35px 20px;
+}
+
+
+/*Footer Section*/
+
+.footer-section {
+    background: #182C61;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.footer-section p {
+    margin-bottom: 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    margin-left: 10px;
+    display: inline-block;
+}
